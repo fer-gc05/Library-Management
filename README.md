@@ -161,8 +161,6 @@ library-management/
 - **Spring Boot v3.4.1** para el correcto funcionamiento de la API
 
 ## Próximamente
-
-- **Implementación de Spring Security**: Protección de la API con seguridad basada en tokens o autenticación básica.
 - **Configuración de CORS**: Gestión de acceso seguro para solicitudes desde diferentes orígenes.
 - **Desarrollo de la App Frontend**: Creación de una interfaz de usuario accesible para interactuar con la API.
 - **Consumo de la API mediante la app frontend**: Implementación de las solicitudes y manejo de los datos desde el frontend hacia la API.

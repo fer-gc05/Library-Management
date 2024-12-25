@@ -11,8 +11,12 @@ import java.util.List;
 @RequestMapping("/api/v1/get/books")
 public class BookApiRestController {
 
-    @Autowired
     private BookApiService bookApiService;
+
+    @Autowired
+    public BookApiRestController(BookApiService bookApiService) {
+        this.bookApiService = bookApiService;
+    }
 
     @GetMapping(value = "/search", headers = "Accept=application/json")
     public List<BookApi> searchBooks(@RequestParam String title) {
